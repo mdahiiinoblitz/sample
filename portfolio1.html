@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carousel Section</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+
+   <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  
+</head>
+<body>
+
+ <header class="header">
+        <div class="container d-flex justify-content-between align-items-center py-3">
+            <!-- Logo Section -->
+            <div class="d-flex align-items-center">
+                <img src="logo.svg" alt="Nutrey Logo" class="logo">
+            </div>
+            <!-- Contact Information -->
+            <div class="contact-info d-none d-lg-flex align-items-center">
+                <div class="me-4">
+                    <button class="btn btn-light rounded-circle me-3 position-relative">
+                        <i class="bi bi-telephone-fill"></i>
+                    </button>
+                    <div class="text-content">
+                        <p>Call Us:</p>
+                        <span>00 567 458 796 47</span>
+                    </div>
+                </div>
+                <div class="me-4">
+                    <button class="btn btn-light rounded-circle me-3 position-relative">
+                        <i class="bi bi-envelope-fill"></i>
+                    </button>
+                    <div class="text-content">
+                        <p>E-mail Now:</p>
+                        <span>infoorgco@gmail.com</span>
+                    </div>
+                </div>
+                <div>
+                    <button class="btn btn-light rounded-circle me-3 position-relative">
+                        <i class="bi bi-geo-alt-fill"></i>
+                    </button>
+                    <div class="text-content">
+                        <p>Our Location:</p>
+                        <span>Nagata Kundo, 82-A, USA.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Navigation Bar -->
+        <nav class="navbar navbar-expand-lg py-2">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Pages</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Shop</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+                    </ul>
+                    <div class="action-buttons d-flex">
+                        <button class="btn btn-secondary rounded-circle me-3">
+                            <i class="bi bi-search"></i>
+                        </button>
+                        <button class="btn btn-secondary rounded-circle me-3 position-relative">
+                            <i class="bi bi-cart-fill"></i>
+                            <span class="badge bg-danger position-absolute top-0 start-100 translate-middle">2</span>
+                        </button>
+                        <button class="btn btn-success">Shop Now</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+
+
+
+<!-- Carousel Section -->
+<div id="mainCarousel" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="1"></button>
+  </div>
+
+  <div class="carousel-inner">
+    <!-- Slide 1 -->
+    <div class="container-fluid  carousel-item active" style="background-image: url('image1.jpg');">
+      <div class="carousel-caption">
+        <h6>"<span>100% PURE VEGETABLES</span>"</h6>
+        <h1>ORGANIC FOOD <br><span>AND </span>VEGETABLES</h1>
+        <p>Lorem Ipsum has been the industry's standard text since the printer took gallery make</p>
+        <a href="#" class="btn">Explore More</a>
+
+        <!-- Icon Section -->
+        <div class="icon-box">
+          <div class="icon-circle">
+            <img src="icon1.png" alt="Free Delivery">
+          </div>
+          <div class="icon-text">
+            <h4>Free Delivery</h4>
+            <p>Lorem ipsum simply dummy text</p>
+          </div>
+
+          <div class="icon-circle">
+            <img src="icon2.png" alt="Support 24/7">
+          </div>
+          <div class="icon-text">
+            <h4>Support 24/7</h4>
+            <p>Lorem ipsum simply dummy text</p>
+          </div>
+
+          <div class="icon-circle">
+            <img src="icon3.png" alt="Secure Payment">
+          </div>
+          <div class="icon-text">
+            <h4>Secure Payment</h4>
+            <p>Lorem ipsum simply dummy text</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 2 -->
+    <div class=" container-fluid carousel-item" style="background-image: url('image2.jpg');">
+      <div class="carousel-caption">
+        <h6>"<span>100% PURE VEGETABLES</span>"</h6>
+        <h1>ORGANIC FOOD <br><span>AND </span>VEGETABLES</h1>
+        <p>Lorem Ipsum has been the industry's standard text since the printer took gallery make</p>
+        <a href="#" class="btn">Explore More</a>
+
+        <!-- Icon Section -->
+        <div class="icon-box">
+          <div class="icon-circle">
+            <img src="icon1.png" alt="Free Delivery">
+          </div>
+          <div class="icon-text">
+            <h4>Free Delivery</h4>
+            <p>Lorem ipsum simply dummy text</p>
+          </div>
+
+          <div class="icon-circle">
+            <img src="icon2.png" alt="Support 24/7">
+          </div>
+          <div class="icon-text">
+            <h4>Support 24/7</h4>
+            <p>Lorem ipsum simply dummy text</p>
+          </div>
+
+          <div class="icon-circle">
+            <img src="icon3.png" alt="Secure Payment">
+          </div>
+          <div class="icon-text">
+            <h4>Secure Payment</h4>
+            <p>Lorem ipsum simply dummy text</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#mainCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+
+<div class="icon-section-mobile">
+  <div class="icon-item">
+    <div class="icon-circle">
+      <img src="icon1.png" alt="Free Delivery">
+    </div>
+    <div class="icon-text">
+      <h4>Free Delivery</h4>
+      <p>Lorem ipsum simply dummy text</p>
+    </div>
+  </div>
+  <div class="icon-item">
+    <div class="icon-circle">
+      <img src="icon2.png" alt="Support 24/7">
+    </div>
+    <div class="icon-text">
+      <h4>Support 24/7</h4>
+      <p>Lorem ipsum simply dummy text</p>
+    </div>
+  </div>
+  <div class="icon-item">
+    <div class="icon-circle">
+      <img src="icon3.png" alt="Secure Payment">
+    </div>
+    <div class="icon-text">
+      <h4>Secure Payment</h4>
+      <p>Lorem ipsum simply dummy text</p>
+    </div>
+  </div>
+</div>
+
+</div>
+
+
+<section class="stats-section">
+    <div class="stats-container">
+      <div class="stat-item" style="background-image: url('i1.svg');">
+        <h2>58M</h2>
+        <p>Trusted By Customers</p>
+      </div>
+      <div class="stat-item" style="background-image: url('i2.svg');">
+        <h2>48.6K</h2>
+        <p>Product Sale Per Day</p>
+      </div>
+      <div class="stat-item" style="background-image: url('i3.svg');">
+        <h2>39Y</h2>
+        <p>Years Of Foundation</p>
+      </div>
+      <div class="stat-item" style="background-image: url('i4.svg');">
+        <h2>86.4M</h2>
+        <p>Monthly Product Order</p>
+      </div>
+    </div>
+</section>
+
+
+
+<section class="latest-products py-5">
+        <div class="container text-center">
+            <p class="text-orange fw-bold">"BEST PRODUCT"</p>
+            <h2>LATEST PRODUCTS</h2>
+            <h2class="mb-5"></h2>
+            <div class="row g-4">
+                <!-- Agriculture Products -->
+                <div class="col-md-3">
+                    <div class="card product-card">
+                        <img src="agriculture.jpg" class="card-img-top rounded-circle" alt="Agriculture">
+                        <div class="card-body">
+                            <div class="icon-container mx-auto mb-3">
+                                <img src="agricultureicon.svg" alt="Icon">
+                            </div>
+                            <h5 class="card-title">Agriculture Products</h5>
+                            <a href="#" class="btn btn-outline-orange">
+                                <span>&rarr;</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Dairy Products -->
+                <div class="col-md-3">
+                    <div class="card product-card">
+                        <img src="diary.jpg" class="card-img-top rounded-circle" alt="Dairy">
+                        <div class="card-body">
+                            <div class="icon-container mx-auto mb-3">
+                                <img src="diaryicon.svg" alt="Icon">
+                            </div>
+                            <h5 class="card-title">Dairy Products</h5>
+                            <a href="#" class="btn btn-outline-orange">
+                                <span>&rarr;</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Organic Fruits -->
+                <div class="col-md-3">
+                    <div class="card product-card">
+                        <img src="organic.jpg" class="card-img-top rounded-circle" alt="Organic Fruits">
+                        <div class="card-body">
+                            <div class="icon-container mx-auto mb-3">
+                                <img src="organicicon.svg" alt="Icon">
+                            </div>
+                            <h5 class="card-title">Organic Fruits</h5>
+                            <a href="#" class="btn btn-outline-orange">
+                                <span>&rarr;</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Fresh Vegetables -->
+                <div class="col-md-3">
+                    <div class="card product-card">
+                        <img src="vegetables.jpg" class="card-img-top rounded-circle" alt="Fresh Vegetables">
+                        <div class="card-body">
+                            <div class="icon-container mx-auto mb-3">
+                                <img src="vegetablesicon.svg" alt="Icon">
+                            </div>
+                            <h5 class="card-title">Fresh Vegetables</h5>
+                            <a href="#" class="btn btn-outline-orange">
+                                <span>&rarr;</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+ <div class="container-fluid maincontainer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="main-heading">
+                        "<span class="highlight">80% OFF</span>"
+                    </h1>
+                    <p class="sub-heading">- GET 100% ORGANIC FOOD -</p>
+                    <a href="#" class="btn btn-shop">Shop Now
+                         <i class="bi bi-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+ <div class="container py-5">
+    <div class="text-center">
+      <p><a href="#" style="color: orange; text-decoration: none; font-size: 22px;">"BEST PRODUCT"</a></p>
+      <h2 class="fw-bold" style="font-family: ltim, cursive; color: #232323; font-size: 50px;">LATEST PRODUCTS</h2>
+    </div>
+    <div class="text-center filters mb-4">
+      <a href="#" class="filter-item active">ALL</a>
+      <a href="#" class="filter-item">FRUITS</a>
+      <a href="#" class="filter-item">VEGETABLES</a>
+      <a href="#" class="filter-item">MILK & CREAM</a>
+    </div>
+
+<div class="row g-4">
+  <!-- Example product card -->
+  <div class="col-md-3 col-sm-6">
+    <div class="productcard">
+      <!-- Image box -->
+      <div class="productimage-box">
+        <img src="c1.png" class="productimage" alt="Mushroom">
+      </div>
+      <!-- Content -->
+      <p class="mb-1">Fresh Orangey</p>
+      <p><span class="price-old">$75.00</span> <span class="price-new">$55.00</span></p>
+      <div class="overlay">
+        <p class="mb-1">Fresh Orangey</p><br>
+        <p><span class="price-old text-white">$75.00</span> <span class="price-new text-white">$55.00</span></p><br>
+        <button class="btn-add-to-cart">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+  <!-- Repeat for other product cards -->
+
+
+  <!-- Example product card -->
+  <div class="col-md-3 col-sm-6">
+    <div class="productcard">
+      <!-- Image box -->
+      <div class="productimage-box">
+        <img src="c2.png" class="productimage" alt="Mushroom">
+      </div>
+      <!-- Content -->
+      <p class="mb-1">Fresh Orangey</p>
+      <p><span class="price-old">$75.00</span> <span class="price-new">$55.00</span></p>
+      <div class="overlay">
+        <p class="mb-1">Fresh Orangey</p><br>
+        <p><span class="price-old text-white">$75.00</span> <span class="price-new text-white">$55.00</span></p><br>
+        <button class="btn-add-to-cart">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+  <!-- Repeat for other product cards -->
+
+
+
+  <!-- Example product card -->
+  <div class="col-md-3 col-sm-6">
+    <div class="productcard">
+      <!-- Image box -->
+      <div class="productimage-box">
+        <img src="c3.png" class="productimage" alt="Mushroom">
+      </div>
+      <!-- Content -->
+      <p class="mb-1">Fresh Orangey</p>
+      <p><span class="price-old">$75.00</span> <span class="price-new">$55.00</span></p>
+      <div class="overlay">
+        <p class="mb-1">Fresh Orangey</p><br>
+        <p><span class="price-old text-white">$75.00</span> <span class="price-new text-white">$55.00</span></p><br>
+        <button class="btn-add-to-cart">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+  <!-- Repeat for other product cards -->
+
+
+
+  <!-- Example product card -->
+  <div class="col-md-3 col-sm-6">
+    <div class="productcard">
+      <!-- Image box -->
+      <div class="productimage-box">
+        <img src="c4.png" class="productimage" alt="Mushroom">
+      </div>
+      <!-- Content -->
+      <p class="mb-1">Fresh Orangey</p>
+      <p><span class="price-old">$75.00</span> <span class="price-new">$55.00</span></p>
+      <div class="overlay">
+        <p class="mb-1">Fresh Orangey</p><br>
+        <p><span class="price-old text-white">$75.00</span> <span class="price-new text-white">$55.00</span></p><br>
+        <button class="btn-add-to-cart">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+  <!-- Repeat for other product cards -->
+
+
+  <!-- Example product card -->
+  <div class="col-md-3 col-sm-6">
+    <div class="productcard">
+      <!-- Image box -->
+      <div class="productimage-box">
+        <img src="c5.png" class="productimage" alt="Mushroom">
+      </div>
+      <!-- Content -->
+      <p class="mb-1">Fresh Orangey</p>
+      <p><span class="price-old">$75.00</span> <span class="price-new">$55.00</span></p>
+      <div class="overlay">
+        <p class="mb-1">Fresh Orangey</p><br>
+        <p><span class="price-old text-white">$75.00</span> <span class="price-new text-white">$55.00</span></p><br>
+        <button class="btn-add-to-cart">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+  <!-- Repeat for other product cards -->
+
+
+
+  <!-- Example product card -->
+  <div class="col-md-3 col-sm-6">
+    <div class="productcard">
+      <!-- Image box -->
+      <div class="productimage-box">
+        <img src="c6.png" class="productimage" alt="Mushroom">
+      </div>
+      <!-- Content -->
+      <p class="mb-1">Fresh Orangey</p>
+      <p><span class="price-old">$75.00</span> <span class="price-new">$55.00</span></p>
+      <div class="overlay">
+        <p class="mb-1">Fresh Orangey</p><br>
+        <p><span class="price-old text-white">$75.00</span> <span class="price-new text-white">$55.00</span></p><br>
+        <button class="btn-add-to-cart">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+  <!-- Repeat for other product cards -->
+
+  <!-- Example product card -->
+  <div class="col-md-3 col-sm-6">
+    <div class="productcard">
+      <!-- Image box -->
+      <div class="productimage-box">
+        <img src="c7.png" class="productimage" alt="Mushroom">
+      </div>
+      <!-- Content -->
+      <p class="mb-1">Fresh Orangey</p>
+      <p><span class="price-old">$75.00</span> <span class="price-new">$55.00</span></p>
+      <div class="overlay">
+        <p class="mb-1">Fresh Orangey</p><br>
+        <p><span class="price-old text-white">$75.00</span> <span class="price-new text-white">$55.00</span></p><br>
+        <button class="btn-add-to-cart">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+  <!-- Repeat for other product cards -->
+
+
+  <!-- Example product card -->
+  <div class="col-md-3 col-sm-6"">
+    <div class="productcard">
+      <!-- Image box -->
+      <div class="productimage-box">
+        <img src="c8.png" class="productimage" alt="Mushroom">
+      </div>
+      <!-- Content -->
+      <p class="mb-1">Fresh Orangey</p>
+      <p><span class="price-old">$75.00</span> <span class="price-new">$55.00</span></p>
+      <div class="overlay">
+        <p class="mb-1">Fresh Orangey</p><br>
+        <p><span class="price-old text-white">$75.00</span> <span class="price-new text-white">$55.00</span></p><br>
+        <button class="btn-add-to-cart">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+  <!-- Repeat for other product cards -->
+</div>
+
+    <div class="text-center mt-5">
+      <button class="btn btn-success rounded-pill px-4 py-2">More Products</button>
+    </div>
+
+
+
+    <div class="container-fluid main-container">
+        <div class="container">
+            <div class="row justify-content-center">
+                    <img src="Group 76.png" alt="Healthy Food">
+            </div>
+        </div>
+    </div>
+
+
+
+      <div class="container my-5">
+       <p class="text-orange text-center fw-bold">"<span>BEST PRODUCT</span>"</p>
+        <h2 class="text-center mb-4">LATEST BLOG AND ARTICLE</h2>
+        <div class="row g-4">
+            <!-- Card 1 -->
+            <div class="col-md-4">
+                <div class="blog-card">
+                    <div class="blog-image">
+                        <img src="blog1.jpg" alt="Blog 1">
+                    </div>
+                    <div class="blog-content">
+                        <p class="blog-date">04 - AUGUST - 2022</p>
+                        <h3 class="blog-title">Many publishing and packages and web page editors model.</h3>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="col-md-4">
+                <div class="blog-card">
+                    <div class="blog-image">
+                        <img src="blog2.jpg" alt="Blog 2">
+                    </div>
+                    <div class="blog-content">
+                        <p class="blog-date">05 - AUGUST - 2022</p>
+                        <h3 class="blog-title">How to get more traffic in your website of ecommerce.</h3>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="col-md-4">
+                <div class="blog-card">
+                    <div class="blog-image">
+                        <img src="blog3.jpg" alt="Blog 3">
+                    </div>
+                    <div class="blog-content">
+                        <p class="blog-date">06 - AUGUST - 2022</p>
+                        <h3 class="blog-title">25 Rules and regulation to be successful in your business.</h3>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="footer text-white">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <img src="corn.svg" class="icon mb-2" alt="Corn">
+        <p>It was popularised in the 1960s with the release of Letraset sheets containing Lorem passages and more recently with desktop publishing software like including.</p>
+        <div class="social-icons mt-3">
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-skype"></i>
+          <i class="fab fa-linkedin-in"></i>
+        </div>
+      </div>
+
+      <div class="col-md-2">
+        <h5>Quick Links</h5>
+        <ul class="list-unstyled">
+          <li><a href="#"><p>About Us</p></a></li>
+          <li><a href="#"><p>Newsroom</p></a></li>
+          <li><a href="#"><p>Checkout</p></a></li>
+          <li><a href="#"><p>Product</p></a></li>
+          <li><a href="#"><p>Contact Us</p></a></li></p>
+        </ul>
+      </div>
+
+      <div class="col-md-3">
+        <h5>Contact</h5>
+        <p><i class="fas fa-map-marker-alt orange"></i> 7 Green Lake Street<br>Crawfordsville, IN 47933</p>
+        <p><i class="fas fa-phone orange"></i> +1 800 123 456 789</p>
+        <p><i class="fas fa-envelope orange"></i> Organtio@gmail.com</p>
+      </div>
+
+      <div class="col-md-4">
+        <h5>Newsletter</h5>
+        <p>You will be notified when something new will be appear.</p>
+        <form class="d-flex">
+          <input type="email" placeholder="Email Address *" required>
+          <button class="btn-submit"><i class="fas fa-paper-plane"></i></button>
+        </form>
+      </div>
+    </div>
+
+   
+
+       <div class="footer-bottom mt-4">
+      <p>Copyright © <span class="orange">2022</span> | All Rights Reserved.</p>
+      <div>
+        <a href="#">Term and Service</a> || 
+        <a href="#">Privacy Policy</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

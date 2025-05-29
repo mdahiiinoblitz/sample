@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nutrey Header</title>
+  
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .header {
+      background-image: url('header-bg.jpg'); /* Replace with your background image */
+      background-size: cover;
+      background-position: center;
+      color: #333;
+    }
+
+    .header-top {
+      background-color: rgba(255, 255, 255, 0.9);
+    }
+
+    .logo {
+      width: 50px;
+      height: 50px;
+    }
+
+    .navbar {
+      background-color: #f9f9f9;
+    }
+
+    .navbar-nav .nav-link {
+      color: #333;
+      font-weight: bold;
+      font-size: 1rem;
+    }
+
+    .navbar-nav .nav-link:hover {
+      color: #007bff;
+    }
+
+    .btn-success {
+      background-color: #4CAF50;
+      border-color: #4CAF50;
+    }
+
+    .btn-success:hover {
+      background-color: #45a049;
+    }
+
+    .contact-info div {
+      color: #555;
+      font-size: 0.9rem;
+    }
+
+    .contact-info i {
+      color: #ff6f00; /* Icon color */
+      margin-right: 5px;
+    }
+
+    .contact-info div + div {
+      margin-left: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <div class="container-fluid py-3 header-top d-flex align-items-center justify-content-between">
+      <!-- Logo Section -->
+      <div class="d-flex align-items-center">
+        <img src="logo.png" alt="Nutrey Logo" class="logo me-3"> <!-- Replace with your logo -->
+        <span class="fw-bold fs-4">NUTREY</span>
+      </div>
+      
+      <!-- Contact Info Section -->
+      <div class="contact-info d-flex">
+        <div>
+          <i class="bi bi-telephone-fill"></i>
+          <span><strong>Call Us:</strong> 00 567 458 796 47</span>
+        </div>
+        <div>
+          <i class="bi bi-envelope-fill"></i>
+          <span><strong>E-mail Now:</strong> infoorgco@gmail.com</span>
+        </div>
+        <div>
+          <i class="bi bi-geo-alt-fill"></i>
+          <span><strong>Our Location:</strong> Nagata Kundo, 82-A, USA.</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Navbar Section -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pages</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+          <button class="btn btn-success">Shop Now</button>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.header {
+    background-color: transparent;
+}
+
+.logo {
+    width: 250px;
+    height: 100px;
+}
+
+
+.contact-info div {
+    display: flex;
+    align-items:left; /* Align icons and text vertically */
+    gap: 10px; /* Adds space between icon and text */
+}
+
+.contact-info i {
+    margin-top: 10px;
+    font-size: 1.5rem;
+    color: #ff6f00; /* Keeps the orange color for icons */
+}
+
+.contact-info .text-content {
+    display: flex;
+    flex-direction: column; /* Stacks heading and content vertically */
+    text-align: left; /* Aligns text to the left */
+}
+
+.contact-info .text-content p {
+    margin: 0;
+    font-family: ltim,cursive;
+    font-size: 15px;
+    color: #868981;
+    font-weight: 400; /* Makes the heading stand out */
+
+}
+
+.contact-info .text-content span {
+    font-size: 14px;
+    font-family: outfit, sans-serif;
+    color: #232323;
+    margin-top: 0px; /* Adds slight spacing between heading and content */
+    font-weight: 500;
+}
+
+
+.text-orange {
+    color: #ff6f00;
+}
+
+/* Main container background image */
+.container {
+    background-image: url('heade0r.png'); /* Replace 'your-background-image.jpg' with the actual file path */
+    background-size: cover;
+    background-position:left;
+    padding: 20px; /* Add padding to separate the content from the edges */
+    border-radius: 8px; /* Optional: Adds rounded corners */
+}
+
+/* Navbar menu section with background color */
+
+
+.navbar {
+    background-color: #eaeaea; /* Background color */
+    display: flex; /* Change display to flex */
+    align-items: center; /* Vertically align items */
+    justify-content: space-between; /* Space out elements */
+    padding: 15px 50px 15px 30px; /* Adds more padding to the right side */
+    border-radius: 8px; /* Rounds the corners */
+    box-shadow: 0 2px 8px rgba(255, 255, 255, 0.1); /* Adds shadow */
+    margin: 20px 0 20px 25%; /* Adjusts the left margin for rightward movement */
+    transform: translateX(-20%); /* Fine-tunes position to control alignment */
+}
+
+.navbar .nav-links {
+    display: flex; /* Group navigation links */
+    gap: 20px; /* Add space between links */
+}
+
+
+.navbar .nav-link {
+    color: #232f4b;
+    font-family: outfit,sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.navbar .nav-link:hover {
+    color: #fd7e14;
+}
+.navbar .action-buttons {
+    display: flex; /* Group action buttons */
+    gap: 10px; /* Add spacing between buttons */
+}
+
+.navbar .action-buttons .btn {
+    padding: 10px;
+    margin-right: 0; /* Remove individual button margin */
+    background-color: #eaeaea;
+    color: #232f4b;
+}
+
+.navbar .action-buttons .btn-success {
+    font-size: 16px;
+    font-family: outfit,sans-serif;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background-color: #72a01e;
+    color:#ffffff
+  
+}
+
+.navbar .action-buttons .btn-success:hover{
+   background-color: #5b8018;
+}
